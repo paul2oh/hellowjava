@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <!--주석 , ctrl+b: 브라우저보기 -->
+    <h1 align="center">안녕하세요! 웹 클라이언트 시작</h1>
+    <strong>안녕</strong> <!--강조-->
+    <em>반가워요</em><!--기울이기-->
+    <U>하이</U><!--밑줄-->
+    <FONT SIZE="5" COLOR="#33FFFF">폰트설정1</FONT>
+    &nbsp;&nbsp;&nbsp;<FONT SIZE="5" COLOR="#6600ff">폰트설정2</FONT>
+    <br>
+    
+	<h1>table1</h1>
+       <table border=1 height=400 width=400>
+	<tr>
+		<th >no</th>
+		<th>제목</th>
+		<th>등록일</th>
+		<th>비고</th>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td>&nbsp;&nbsp;</td>
+		<td>&nbsp;&nbsp;</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	</table>
+
+</table>
+<h1>table2</h1>
+<table border="1" height=400 width=400 >
+<tr>
+    <td height="25%" width="25%">&nbsp;</td>
+    <td width="50%" colspan="2">&nbsp;</td>
+    <td width="25%">&nbsp;</td>
+    
+</tr>
+<tr >
+    <td height="50%" rowspan="2">&nbsp;</td>
+    <td rowspan="2" colspan="2" >&nbsp;</td>
+    <td rowspan="2">&nbsp;</td>
+    
+</tr>
+<tr>
+</tr>
+<tr>
+    <td height="25%">&nbsp;</td>
+    <td colspan="2">&nbsp;</td>
+    <td>&nbsp;</td>
+    
+</tr>
+
+</table>
+
+<h1>table3</h1>
+<table border=1 height=400 width=400>
+<tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td colspan="2" rowspan="2" >&nbsp;</td>
+    <td>&nbsp;</td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+<h1>table4</h1>
+     <table border=1 height=400 width=400>
+	<tr>
+		<th >no</th>
+		<th>제목</th>
+		<th>등록일</th>
+		<th>비고</th>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td>&nbsp;&nbsp;</td>
+		<td>&nbsp;&nbsp;</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="3" align=center> 계</td>
+		
+		<td>&nbsp;</td>
+	</tr>
+	</table>
+
+	<h3>좋아하는 도시</h3>
+  <ul>
+  	<li>런던</li>
+  	<li>파리</li>
+  	<li class="cl">LA</li>
+	<LI>서울</LI>
+  </ul>
+
+	<h3 id="favor">좋아하는 연예인 RANK</h3>
+	<OL TYPE=I>
+		<LI>트와이스</LI>
+		<LI class="cl">아이오아이</LI>
+		<LI>아이유</LI>
+	</OL>
+
+<style type="text/css">
+<!--
+	id    : #id명
+	class : .클래스명
+	태그 : 태그명
+	ex)
+	#id01{속성1값:value1; 속성2값;value2;}
+
+-->
+	h1{color : red; text-align:right;}
+	#favor{color : pink; font-size: 40;}
+	.cl{color : aqua;}
+	position : absolute; top:200; left:200;
+</style>
+	
+	<h1>안녕 ohio</h1>
+	<div id="div01" class=""></div>
+
+ </body>
+</html>

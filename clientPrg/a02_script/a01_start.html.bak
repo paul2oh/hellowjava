@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>a01_start</title>
+	<script>
+	<!-- 
+		//자바 스크립트 변수.
+		//type 지정되지 않음. 초기에 할당하는 데이터 type으로 지정됨..
+		//var 변수명 = 할당될 데이터;
+		var name = "홍길동";
+		var age=25;
+		var inliving="서울 종로구";
+		alert("이름:"+name+"\n나이:"+25+"\n사는곳:"+inliving);//경고창으로 주로 쓰임..
+		var num01=25;
+		var num02=27;
+		alert(num01+"+"+num02+"="+(num01+num02));
+		num01="안녕맨! 숫자에서 문자변수로 변경";
+		alert(num01);
+
+/*
+ 확인예제 
+	임의로 입력된 데이터를 기준으로 alert을 아래의 내용과 같이 출력하라.
+     오늘 요일 : @@@ 요일
+	 날짜 @@@@년 @@월 @@일
+	 물건명 : @@@ 가격 : @@@ 갯수 : @@@ 계 : @@@
+
+*/
+	var date = "수요일";
+	var year = 2016;
+	var month = 12;
+	var days = 28;
+	var object = "순실전자 노트폭탄"
+	var price = 1000000;
+	var su = 5;
+	alert("오늘 요일:"+date+"\n"
+	+"날짜"+year+"년"+month+"월"+days+"일\n"
+	+"물건명:"+object+"가격:"+price+"갯수:"+su+"계:"+price*su);
+	
+
+
+	//-->
+	</script>
+ </head>
+ <body>
+  
+ </body>
+</html>

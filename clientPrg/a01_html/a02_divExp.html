@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+
+	<!--
+		div속성 position : 위치를 절대/상대적으로 처리 absolute, relative<default>
+		top: 브라우저를 왼쪽상단기준으로 얼마나 밑으로 내려오는지!
+		left: 왼쪽상단기준으로 얼마나 오른쪽으로 가는지!
+		visibility : 해당 div를 임시적으로 보이지 않게 처리..
+		z-index: div 간의 우선순위를 지정.
+	-->
+  <style>
+		#div01{background:yellow;width:200px; z-index:10;position:absolute; top:40px;left:280px;}
+		#div02{background:red;width:200; visibility : hidden; z-index: 100;}
+		#div03{background:green;width:400px; height:250px;position:absolute; top:50px; left:300px;}
+		
+		
+ </style>
+ <script>
+		//<!--
+		function call() {
+				alert("호출됩니다!");
+				var div01=document.getElementById("div01");
+				div01.style.background="blue";
+		}
+			//-->
+ </script>
+
+ </head>
+ 
+ <body>
+		<input type="button" value="눌러주세요" onclick="call()"/>
+		<div id="div01">
+				<h1>ohio!(div01)</h1>
+					<p>
+						layout연습
+					</p>
+		</div>
+		<div id="div02">
+				<h1>ohio!(div02)</h1>
+					<p>
+						layout연습
+					</p>
+		</div>
+		<div id="div03">
+				<h1>ohio!(div03)</h1>
+					<p>
+						layout연습
+					</p>
+		</div>
+		
+ </body>
+</html>

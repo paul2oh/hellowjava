@@ -1,0 +1,10 @@
+package javastart.a01_hello;
+
+public class A05_inputExp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

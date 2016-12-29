@@ -1,0 +1,45 @@
+package javastart.a02_operator;
+
+public class A01_calcu2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+ * 산술연산자 : +, -, *, /, %
+ * %: 나머지 연산자 : 해당 데이터의 몫을 제외한 나머지 부분 처리
+ */
+		System.out.println("20%7="+(20%7));
+/*
+ * 사과 50개를 3명에게 나누어 주기로 했습니다.
+ * 1명당 몇개를 나누어 주고, 나머지 @@개가 남는 것을 프로그램하려고 한다.
+ * 이때, (과일) 종류와 총(갯수) 나누어 줘야할 (사람수)를 args를 받아서
+ * 변동적으로 처리하는 프로그램을 만든다면..
+ * 	
+ * 
+ * 과일 종류 @@@ 문자  사과 , 배, 딸기, 바나나
+ * 과일 갯수 @@ 
+ * 나누어줄 인원 : @@
+ * 1명당 나누어 줄 과일 갯수 : @@@
+ * 나머지 갯수 : @@@ 	
+ */
+		/*int appleCnt = Integer.parseInt(args[0]);
+		int pairCnt = Integer.parseInt(args[1]);
+		int strawCnt = Integer.parseInt(args[2]);
+		int bananaCnt = Integer.parseInt(args[3]);
+		int tot = appleCnt +pairCnt+ strawCnt+bananaCnt;*/
+		
+		String fruitkind=args[0];
+		int fruitCnt=Integer.parseInt(args[1]);
+		int personCnt=Integer.parseInt(args [2]);
+		int cntPerPerson=fruitCnt/personCnt;
+		int cntMod=fruitCnt%personCnt;
+		//sysout+ctrl+space : 단축키를 외우기전에 풀 코드 암기
+		System.out.println("과일 종류 : "+fruitkind);
+		System.out.println("과일 갯수 : "+fruitCnt );
+		System.out.println("나누어줄 인원 : "+personCnt );
+		System.out.println("1명당 나누어 줄 과일 갯수 : "+cntPerPerson );
+		System.out.println("나머지 갯수 : "+cntMod );
+
+
+	}
+}

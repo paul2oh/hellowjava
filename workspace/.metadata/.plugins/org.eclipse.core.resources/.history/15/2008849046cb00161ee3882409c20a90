@@ -1,0 +1,14 @@
+package javastart.a02_operator;
+
+public class A01_calcu2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+ * 산술연산자 : +, -, *, /, %
+ * %: 나머지 연산자 : 해당 데이터의 몫을 제외한 나머지 부분 처리
+ */
+		System.out.println("20%7="+(20%7));
+	}
+
+}

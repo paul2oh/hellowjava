@@ -1,0 +1,15 @@
+package javastart.a02_operator;
+
+public class A07_tripleOper {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*3항 연산자 : 조건처리의 결과물을 한라인에서 true, false값에 따라
+ * 바로 처리하고자 할 때, 쓰이는 연산자 
+ * 
+ * (조건/논리연산자)? true일때 처리 결과물 : false 일때 처리 결과물
+ * ex)pt >= 70 ? "합격" : "불합격";
+ */
+	}
+
+}

@@ -1,0 +1,10 @@
+package javastart.a04_switch;
+
+public class A01_basic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
