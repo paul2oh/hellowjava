@@ -2,21 +2,26 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="3" key="selection"/>
+		<item value="bs" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="b01"/>
+			<item value="BookStore"/>
+			<item value="1"/>
 			<item value="2"/>
+			<item value="List l2=new List();"/>
 			<item value="straw"/>
 			<item value="System.out.println(&quot;선택한 번호는&quot;+strawBox+&quot;번&quot;+boxName2+&quot;를 선택하셨습니다.&quot;);"/>
 			<item value="grape"/>
-			<item value="grapeBox"/>
-			<item value="strawBox"/>
 		</list>
 		<list key="replacehistory">
+			<item value="bs"/>
+			<item value="buyBook"/>
 			<item value="3"/>
+			<item value="2"/>
 			<item value="grape"/>
 			<item value="straw"/>
 			<item value="strawBoxNum"/>

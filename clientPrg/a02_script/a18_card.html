@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script type="text/javascript">
+  <!--
+	var teams = [];
+	var cards = [];
+	var pattern =["♠","◆","♣","♥"];
+	var Ran = (Math.random()*13+1);
+	var	patternRan=pattern[ran]
+	//var 	
+
+	window.onload =function(){
+	
+		
+		for(var i=0;i<2;i++){
+			var teamName = prompt("팀명을 입력하세요","");
+				 teams[i] = teamName; 	
+		
+		}
+			//alert(teams
+	console.log(teams[0]);
+		}//window	
+
+	//var t = teamName;
+	function disturb(obj){
+	     document.getElementById("team01").innerHTML =teams[0]; 
+		 document.getElementById("team02").innerHTML 
+		 =teams[1];
+		 
+		 for(idx=0;idx<7;idx++){
+			var idx = Ran;
+		 
+		 }
+			console.log("aa",Ran.value )
+		 var tCard01=document.getElementById("team01card");
+		 tCard01.innerHTML= Ran.value;
+
+		console.log("ab",Ran  )
+	}
+	
+
+	//1.팀명 구현 완료!!
+	//2.카드 분배
+	
+	
+
+  //-->
+  </script>
+ </head>
+ <body>
+  <input type="button" value="카드 분배" onclick="disturb(this)"/>
+  <h1 id="team01">팀1</h1>
+  <h1 id="team01card">팀1카드</h1>
+  <h1 id="team02">팀2</h1>
+  <h1 id="team02card">팀2카드</h1>
+
+
+
+ </body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script>
+	
+	var games=["가위","바위","보"];
+	function game(obj){
+		
+		var ranIdx=parseInt(Math.random()*3);
+		obj.innerHTML=games[ranIdx];
+		}
+	function play(){
+
+		var p01Idx = parseInt(Math.random()*3);
+		var p02Idx = parseInt(Math.random()*3);
+		document.getElementById("player01").innerHTML=games[parseInt(Math.random()*3)];
+		document.getElementById("player02").innerHTML=games[parseInt(Math.random()*3)];
+	}
+	
+	
+	function restart(){
+		document.getElementById("player01").innerHTML="가위바위보 게임 시작(player1)";
+		document.getElementById("player02").innerHTML="가위바위보 게임 시작(player1)";
+	}
+
+		//homework
+	//결과표시 player01승, player02승, 무승부 hint idx 사용
+  </script>
+ </head>
+ <body>
+ <h1 align="center"  onclick="play()">시작</h1>
+  <h1 align="center" id="player01" onclick="game(this)">가위바위보 게임 시작(player1)</h1>
+  <h1 align="center" id="player02" onclick="game(this)">가위바위보 게임 시작(player2)</h1>
+  <h1 align="center" onclick="restart()">다시 시작</h1>
+ </body>
+</html>
+ 

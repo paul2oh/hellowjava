@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+
+<!-- 1번 -->
+<!-- <frameset cols="80%,20%"> -->
+<!-- 	<frameset rows="30%,30%,30%"> -->
+<!-- 		<frame /> -->
+<!-- 		<frame /> -->
+<!-- 		<frame /> -->
+<!-- 	</frameset> -->
+<!-- </frameset> -->
+
+<!-- 2번 -->
+<!-- <frameset rows="20%,60%,20%"> -->
+<!-- 	<frame /> -->
+<!-- 	<frameset cols="20%,60%,20%"> -->
+<!-- 		<frame /> -->
+<!-- 		<frame /> -->
+<!-- 		<frame /> -->
+<!-- 	</frameset> -->
+<!-- 	<frame /> -->
+<!-- </frameset> -->
+
+<!-- 3번 -->
+<frameset cols="20%,60%,20%">
+<frameset rows="20%,60%,20%">
+
+
+</frameset>
+</frameset>
+
+
+</html>

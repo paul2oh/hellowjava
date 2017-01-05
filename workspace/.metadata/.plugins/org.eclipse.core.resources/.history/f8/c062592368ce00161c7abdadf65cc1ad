@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title>Document</title>
+<script>
+	//date 처리객체
+
+	/*
+		날짜와 현재 시간을 처리해주는 객체..
+		
+
+		getMonth() : 월 
+		getDate() : 일
+		getHours() : 시 
+		getMinutes() : 분
+		getSeconds() : 초
+
+		getYear() getFullYear() 년..
+		
+		setInterval(함수,1/1000); 해당시간별 마다 반복적으로 처리..
+
+	 */
+	window.onload = function() {
+		setInterval(startDate, 1000);
+
+	};
+	function startDate() {
+		var date = new Date();
+		var days = [ "일", "월", "화", "수", "목", "금", "토" ]
+		var current = "<h1 align='center'>" + date.getFullYear() + "년";
+		current += (date.getMonth() + 1) + "월"; //idx 라서 1을 추가 jan feb로 값이 들어있다
+		current += (date.getDate()) + "일";
+		current += days[date.getDay()] + "요일";
+		current += (date.getHours()) + ":";
+		current += (date.getMinutes()) + ":";
+		current += (date.getSeconds()) + " </h1>";
+
+		document.getElementById("toDay").innerHTML = current;
+		document.getElementById("tr01").innerHTML = "";
+	};
+</script>
+
+
+
+</head>
+<body>
+	<p id="toDay"></p>
+	<table id="tab01" align="center" width="400" height="200">
+
+		<tr id="tr01">
+			<th>일</th>
+			<th>월</th>
+			<th>화</th>
+			<th>수</th>
+			<th>목</th>
+			<th>금</th>
+			<th>토</th>
+		</tr>
+
+
+		<tr id="tr02">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+
+
+		</tr>
+
+
+	</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+package javastart.a05_loop;
+
+public class A09_while {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * while(조건){ 반복할 구문 처리.. }
+		 */
+
+		int appleCnt = 0;
+		while (appleCnt < 10) {
+			appleCnt++;
+			if (appleCnt == 5) {
+				System.out.println("5개는 제외");
+				continue;
+			}
+			System.out.println("사과" + appleCnt + "개를 구매하였습니다.");
+
+		}
+	}//main
+
+}

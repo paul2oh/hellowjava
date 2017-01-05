@@ -1,0 +1,23 @@
+package javastart.b02_array;
+
+public class A01_Start {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//배열 선언 	= 배열 객체 할당
+		//type[] 배열이름 = new type[배열의 크기]
+		int [] prodCnts=new int[5];
+		//글자입력 ctrl+space
+				prodCnts[0]=5;
+				prodCnts[1]=8;
+				prodCnts[2]=9;
+				prodCnts[3]=5;
+				prodCnts[4]=3;
+				//prodCnts[5]=2; 크기가 5개일 배열은 index가 4까지 있기에 에러 발생
+				//배열이름.length : 배열의 크기
+				for(int idx=0;idx<prodCnts.length;idx++){
+					System.out.println((idx+1)+"번째 값:"+prodCnts[idx]);
+				}
+	}// main
+
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script>
+  window.onload=function(){
+
+/*
+	prompt("타이틀(설명내용)","입력초기값");		
+	return: 확인시,입력된 값을 받음.. 취소시, null
+*/
+	
+	var inputName=prompt("등록할 이름을 입력하세요!!","여기에");
+	alert(inputName);
+	document.getElementsByTagName("h1")[0].innerHTML="이름:"+inputName;
+  };
+
+    var inputNum1=prompt("첫번째 값입력하세요","단수");
+	var inputNum2=prompt("두번째 값 입력하세요.","번째");
+	var inNum1=parseInt(inputNum1);
+	var inNum2=parseInt(inputNum2);
+
+	alert(inNum1+"*"+inNum2+"="+(inNum1*inNum2));
+	
+  /*
+  구구단
+  첫번째 값입력하세요.
+  두번째 값 입력하세요.
+  @@ * @@ = @@
+
+
+  
+  */
+  </script>
+ </head>
+ <body>
+  <h1>초기 화면..</h1>
+ </body>
+</html>

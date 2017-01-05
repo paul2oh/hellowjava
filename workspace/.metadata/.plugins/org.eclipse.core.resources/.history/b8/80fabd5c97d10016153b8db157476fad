@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+
+<!-- 1번 -->
+<!-- <frameset cols="80%,20%"> -->
+<!-- 	<frameset rows="30%,30%,30%"> -->
+<!-- 		<frame /> -->
+<!-- 		<frame /> -->
+<!-- 		<frame /> -->
+<!-- 	</frameset> -->
+<!-- </frameset> -->
+
+<frameset rows="20%,60%,20%">
+
+</frameset>
+
+
+</html>

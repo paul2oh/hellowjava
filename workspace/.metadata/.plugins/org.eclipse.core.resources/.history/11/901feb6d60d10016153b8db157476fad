@@ -1,0 +1,17 @@
+package javastart.b01_object;
+
+public class B01_Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+ * 초기에 클래스에 생성자를 선언하지 않으면
+ * 내부적으로 default 생성자로 입력값이 없는 생성자가
+ * 호출되어 생성된다.
+ */
+		Student s1 = new Student();
+		
+		
+	}//main
+
+}

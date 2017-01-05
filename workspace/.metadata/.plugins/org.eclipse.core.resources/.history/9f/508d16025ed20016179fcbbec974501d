@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<frameset rows="20%,80%">
+<frame src="t02_main1.html"/>
+<frame />
+</frameset>
+</html>

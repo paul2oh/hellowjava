@@ -1,0 +1,45 @@
+package javastart.b01_object;
+
+class Calcu{
+	int num01;
+	int num02;
+	String cal;
+	int sum;
+	//두개의 값을 입력받아 덧셈처리.
+	int plus(int n01,int n02){
+		cal= "+";
+		sum=n01+n02;
+		return sum;
+	}
+	int minus(int n01,int n02){
+		cal= "-";
+		sum=n01-n02;
+		return sum;
+	}
+	int multi(int n01,int n02){
+		cal= "*";
+		sum=n01*n02;
+		return sum;
+	}
+	int div(int n01,int n02){
+		cal= "/";
+		sum=n01/n02;
+		return sum;
+	}
+	
+}
+
+public class A04_MethodFun {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calcu c01 = new Calcu();
+		int num01=4;
+		int num02=5;
+		System.out.println(num01+"+"+num02+"="+c01.plus(num01, num02));
+		
+		
+		
+	}//main
+
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body bgcolor="yellow">
+<h1 align="left">left입니다.</h1>
+<a href="a07_main.html" target="main01">메인화면1</a>
+<a href="a07_main2.html" target="main01">메인화면2</a>
+</body>
+</html>

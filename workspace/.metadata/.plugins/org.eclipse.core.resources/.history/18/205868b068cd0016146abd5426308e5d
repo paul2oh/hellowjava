@@ -1,0 +1,39 @@
+package javastart.a05_loop;
+
+public class A06_break_continue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * break: 반복문에서 프로세스를 중단하고자 할 때, 사용된다.
+		 * 일반적으로 조건문과 함께 하여, 해당 조건에 해당할 때, 
+		 * 프로세스를 중단시킨다..
+		 */
+		
+		//3단에서 3*5 =15를 생략하고자 한다...
+		System.out.println("break인 경우");
+		for(int cnt=1;cnt<=9;cnt++){
+			// System.out.println("3*"++"="+);
+			if(cnt==5){
+				break;//해당 프로세스를 중단시킨다..
+			}
+			System.out.println(3+"*"+cnt+"="+(3*cnt));
+		}
+		/*
+		 * continue:반복문에서 특정 프로세스만 중단시키고, 그 다음 프로세스를
+		 * 진행하고자 할 때 쓰임..
+		 */
+		System.out.println("continue인 경우");
+		for(int cnt=1;cnt<=9;cnt++){
+			// System.out.println("3*"++"="+);
+			if(cnt==5){
+				continue;//해당 프로세스를 중단시킨다..
+			}
+			System.out.println(3+"*"+cnt+"="+(3*cnt));
+		}
+		
+		
+	}//main
+
+}

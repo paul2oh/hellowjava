@@ -1,0 +1,34 @@
+package javastart.b02_array;
+
+class Team{
+	//ÆÀ¸í
+	String name;
+	//ÃÑÀüÀû
+	int totGame;
+	//½Â¼ö
+	int vicCnt;
+	//ÆÐ..
+	int defCnt;
+	//½Â·ü
+	double vicRatio;
+	Team(String name, int vicCnt, int defCnt){
+		this.name=name;
+		this.totGame=vicCnt+defCnt;
+		this.vicCnt=vicCnt;
+		this.defCnt=defCnt;
+	}
+	void showCur(){
+		vicRatio=vicCnt/(double)totGame;
+		System.out.println(name+"\t"+totGame+"\t"+vicCnt+"\t"+defCnt+"\t"+vicRatio);
+	}
+}//class
+
+public class A05_ObjArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Team t = new Team("ºù±×·¹", 20, 17);
+			t.showCur();
+	}//main
+
+}
